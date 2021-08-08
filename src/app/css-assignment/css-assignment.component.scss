@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+}
+
+.item {
+  width: 176px;
+  height: 219px;
+  margin: 21px 20px 0 0;
+  padding: 89px 0 0;
+  border-radius: 3px;
+  border: solid 1px #e5e5e5;
+  background-color: #fff;
+}
+
+.item:hover {
+  box-shadow: 0 40px 45px 0 rgba(0, 0, 0, 0.32);
+  border: solid 1px #e5e5e5;
+  background-color: #fff;
+}
+
+.Summary-pack {
+  margin: 0 20px 15px 15px;
+  font-family: HelveticaNeue;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #00232b;
+}
+
+.Portfolio-valuation {
+  margin: 15px 0 0;
+  height: 145px;
+  padding: 15px 15px 20px;
+  border-radius: 3px;
+  border: solid 1px #e5e5e5;
+  background-image: linear-gradient(#0c2b34 27%, #335178);
+  font-family: HelveticaNeue;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.17;
+  color: #fff;
+}

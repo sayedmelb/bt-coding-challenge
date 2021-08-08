@@ -1,0 +1,7 @@
+
+<mat-selection-list #users [multiple]="false" role="listitem" class="horizontal-list">
+  <mat-list-option *ngFor="let user of userList" [value]="user.value" class="list-option" [ngClass]="{'selected-option': user.value === users.selectedOptions.selected[0]?.value}">
+    {{user.name | splitName }}
+  </mat-list-option>
+</mat-selection-list>
+<app-posts *ngIf="users.selectedOptions.selected[0]?.value" [userId]="users.selectedOptions.selected[0]?.value" [userName]="getSelectedUser(users.selectedOptions.selected[0]?.value)"></app-posts>

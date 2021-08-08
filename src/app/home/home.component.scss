@@ -1,0 +1,13 @@
+.horizontal-list {
+  display: flex;
+}
+.list-option {
+  background-color: aliceblue;
+  margin: 0 1rem;
+  border: 1px solid blue;
+  text-align: center;
+}
+
+.selected-option {
+    background-color: orange;
+}
